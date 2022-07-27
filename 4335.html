@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css/Style because of using Shopify store -->
+    <style>
+        * {
+            background: white;
+            margin: 0;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        img {
+            height: 250px;
+            width: 250px;
+        }
+        div {
+            text-align: center;
+        }
+        .feefo-review-widget-product {
+            max-width: 900px;
+        }
+    </style>
+
+
+
+    <title>Testing for 4317, 4335, 4334, 4333</title>
+    <!-- Scripts -->
+   <script type="text/javascript" src="https://api-qa-h.feefo.com/api/javascript/4335-the-importer" async></script>
+</head>
+<body>
+
+    <h1> Welcome to Wildcard and Chain SKU's</h1>
+    <h2>Product Title</h2>
+    <!-- Optional stars taken from the below Product widget -->
+    <div class="feefo-review-badge-wrapper-product"></div>
+    <img src="https://hub-qa-c.feefo.com/api/feedback-image/62b31e09e4b05da2f92001e3" alt="This is a product image">
+    <p>Description</p>
+    <!-- On-page Product Widget using wildcard -->
+    <!-- Product SKUs that can be used for 4335-the-importer -->
+    <div id="feefo-product-review-widgetId" class="feefo-review-widget-product" data-product-sku="**"></div>
+
+    
+
+
+
+</body>
+</html>
